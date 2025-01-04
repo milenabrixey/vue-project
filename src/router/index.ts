@@ -18,14 +18,14 @@ const router = createRouter({
       component: () => import('../views/AboutView.vue'),
     },
     {
+      path: '/experience',
+      name: 'experience',
+      component: () => import('../views/ExperienceView.vue'),
+    },
+    {
       path: '/skills',
       name: 'skills',
       component: () => import('../views/SkillsView.vue'),
-    },
-    {
-      path: '/social',
-      name: 'social',
-      component: () => import('../views/SocialView.vue'),
     },
   ],
 })

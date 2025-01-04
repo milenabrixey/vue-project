@@ -5,9 +5,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        // Define your custom colors
+        // Define custom colors
         cyan: '#06D7F6',
         blue: '#1388D9',
+        lightpurple: '#7383FB',
         purple: '#400686',
       },
       animation: {
@@ -29,11 +30,12 @@ export default {
   },
   plugins: [
     daisyui,
+    // Define custom class
     function ({ addUtilities, theme }) {
       const newColors = theme('colors')
       addUtilities({
         '.gradient-text': {
-          background: `linear-gradient(90deg, ${newColors.cyan}, ${newColors.blue}, ${newColors.purple})`,
+          background: `linear-gradient(90deg, ${newColors.cyan}, ${newColors.blue}, ${newColors.lightpurple}, ${newColors.purple})`,
           WebkitBackgroundClip: 'text',
           WebkitTextFillColor: 'transparent',
         },

@@ -1,7 +1,8 @@
 @import './base.css';
 
 #app {
-  max-width: 1280px;
+  /* max-width: 1280px; */
+  max-width: 1920px;
   margin: 0 auto;
   padding: 2rem;
   font-weight: normal;
@@ -16,7 +17,7 @@ a {
 
 @media (hover: hover) {
   a:hover {
-    background-color: hsla(188, 100%, 37%, 0.2);
+    background-color: rgba(119, 119, 216, 0.3);
   }
 }
 
