@@ -1,1 +1,0 @@
-import{_ as s,c as o,a,o as c}from"./index-BlvhYTl_.js";const t={},n={class:"social"};function r(i,e){return c(),o("div",n,e[0]||(e[0]=[a("h3",null,"This is a social page.",-1)]))}const _=s(t,[["render",r]]);export{_ as default};
